@@ -12,3 +12,5 @@ wget "https://discord.com/api/download?platform=linux&format=tar.gz" -O discord.
 # Extract files to /opt directory
 
 tar -xvf discord.tar.gz -C /opt/Discord
+
+rm -rf discord.tar.gz
